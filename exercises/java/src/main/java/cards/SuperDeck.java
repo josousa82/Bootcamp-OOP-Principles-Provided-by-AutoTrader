@@ -14,11 +14,8 @@ public class SuperDeck implements Deck {
         AnimalDeck animalDeck = new AnimalDeck();
         PlayingCardDeck playingCardDeck = new PlayingCardDeck();
 
-        while (animalDeck.getCards().length > 0 ){
+        while (animalDeck.getCards().length > 0 | playingCardDeck.getCards().length > 0){
             superDeck.add(animalDeck.deal());
-        }
-
-        while (playingCardDeck.getCards().length > 0 ){
             superDeck.add(playingCardDeck.deal());
         }
     }

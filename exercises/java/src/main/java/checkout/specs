@@ -1,0 +1,12 @@
+
+
+- a product is created
+- basket take as many products
+    - getTotal method gives the total amount
+    -
+- checkout will get the
+       total from the basket
+       will check if discounts have to be applied
+            if so will apply the discount to each p
+       list of products names as strings
+

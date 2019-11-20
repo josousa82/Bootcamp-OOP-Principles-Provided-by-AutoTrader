@@ -1,12 +1,31 @@
 package checkout;
 
+import java.util.HashMap;
+
 class Checkout {
+
     private int total;
     private int numberOfA = 0;
     private int numberOfB = 0;
+    private int numberOfC = 0;
     private Receipt receipt = new Receipt();
 
-    void scan(String sku) {
+
+    HashMap<String, Integer> productsWithDiscount = new HashMap<>();
+
+
+    private void ckeckForDicounts(){
+
+    }
+
+
+
+
+
+    public void scan(String sku) {
+
+
+
         if ("A".equals(sku)) {
             total += 50;
             receipt.scannedA();
@@ -30,14 +49,22 @@ class Checkout {
             if (numberOfB % 2 == 0) {
                 total -= 15;
             }
+        }else if("C".equals(sku)){
+            numberOfC++;
+            if(numberOfC % 4 == 0){
+                total -= 10;
+            }
+
         }
     }
 
-    int total() {
+    public int total() {
+
         return total;
     }
 
     public String receipt() {
+
         return receipt.text();
     }
 }

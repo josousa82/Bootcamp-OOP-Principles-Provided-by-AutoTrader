@@ -50,4 +50,8 @@ public class ReceiptTests {
                 "B: 30 - 15 (2 for 45)\n",
                 "Total: 210");
     }
+
+
+
+
 }
