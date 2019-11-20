@@ -1,10 +1,3 @@
-
-## Single Responsibility Principle
-
-* Cohesion
-* Functional Decomposition
-* Critiquing and adapting poorly implemented checkout kata
-=======
 #### Bootcamp-OOP-Principles-Provided-by-AutoTrader
 
 ###### Summary
@@ -19,7 +12,6 @@
 * Red Green Refactor
 * Build Tools
 * CodeLabs and challenges
-
 
 
 <!--- ORGANISER THINGS TO CONSIDER 
@@ -117,4 +109,11 @@ The slides can be viewed from the link at the top of the repository.
     * Apply to modelling
     * Give some examples
   * Inheritance
+  
+## Single Responsibility Principle
+
+* Cohesion
+* Functional Decomposition
+* Critiquing and adapting poorly implemented checkout kata
+
 
