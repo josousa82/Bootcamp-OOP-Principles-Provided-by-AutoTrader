@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!--- ORGANISER THINGS TO CONSIDER 
 - Which technical competencies, behaviours and knowledge module topics does the bootcamp cover/meet
 - Structuring retros so that they can inform thinking for individual's personal learning records (off the job training record tab in their learning logs)
@@ -115,4 +115,3 @@ The slides can be viewed from the link at the top of the repository.
 * Red Green Refactor
 * Build Tools
 * CodeLabs and challenges
->>>>>>> 2fe71a913bf67cfce7f23942cbc051004b245328
